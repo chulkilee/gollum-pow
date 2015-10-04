@@ -3,11 +3,12 @@
 ## Installation
 
 ```bash
-export repo_name="my_website" 
-export repo_path="~/repos/my_website"
+export repo_name="my_website"           # set host name
+export repo_path="~/repos/my_website"   # set content path
 cd ~/.pow
 mkdir "$repo_name"
 cd "$repo_name"
+git clone https://github.com/chulkilee/gollum-pow.git .
 ln -s "$repo_path" data
 ```
 
