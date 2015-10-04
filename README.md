@@ -3,8 +3,8 @@
 ## Installation
 
 ```bash
-export repo_name="my_website"           # set host name
-export repo_path="~/repos/my_website"   # set content path
+export repo_name="my_website"            # set host name
+export repo_path="~/repos/my_website/"   # set content path (ensure '/' at end)
 cd ~/.pow
 mkdir "$repo_name"
 cd "$repo_name"
